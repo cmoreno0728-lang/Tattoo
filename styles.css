@@ -142,3 +142,76 @@ h1 {
   color: var(--muted);
   font-size: 0.9rem;
 }
+
+.contact-card {
+  display: grid;
+  gap: 1rem;
+}
+
+.contact-heading {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.contact-actions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 0.75rem;
+}
+
+.contact-action {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  text-decoration: none;
+  color: var(--text);
+  border: 1px solid var(--line);
+  background: #121217;
+  padding: 0.9rem;
+}
+
+.contact-action:hover,
+.contact-action:focus-visible {
+  border-color: var(--accent);
+}
+
+.contact-icon {
+  font-size: 1.25rem;
+}
+
+.contact-action strong,
+.contact-action small {
+  display: block;
+}
+
+.contact-action small {
+  color: var(--muted);
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 1px solid var(--line);
+  padding: 0.5rem 0.7rem;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.social-link:hover,
+.social-link:focus-visible {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.social-link svg {
+  width: 1rem;
+  height: 1rem;
+  fill: currentColor;
+}
