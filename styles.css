@@ -215,3 +215,42 @@ h1 {
   height: 1rem;
   fill: currentColor;
 }
+
+
+.hero-photo {
+  background-image: linear-gradient(rgba(8,8,10,.72), rgba(8,8,10,.72)), url("https://raw.githubusercontent.com/cmoreno0728-lang/Tattoo/2704f4b5204ef7a950c5114af27499baaf9cd578/Site%20Images/IMG_3568.JPG");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border: 1px solid var(--line);
+  margin-bottom: 0.85rem;
+}
+
+.artist-card {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.artist-image {
+  width: 100%;
+  max-width: 420px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
+
+.contact-feature {
+  margin: 0 0 1rem;
+}
+
+.contact-feature img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border: 1px solid var(--line);
+}
